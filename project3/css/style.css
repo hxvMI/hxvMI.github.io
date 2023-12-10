@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+/* use photoshop to look at colors */
+body{
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article{
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    font-family: 'Lora', 'Georgia', serif;
+    color: #0056b3;
+}
+/* link stuff *//* link stuff *//* link stuff *//* link stuff *//* link stuff *//* link stuff *//* link stuff *//* link stuff */
+a{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(210, 100%, 37%);
+}
+
+a:visited{
+    color: rgba(134, 82, 198, 0.8);
+}
+
+a:active{
+    color: rgb(228, 77, 38);
+}
+
+a:focus{/* added just in case */
+    outline:2px solid #007BFF;
+}
+/* navigation bar stuff *//* navigation bar stuff *//* navigation bar stuff *//* navigation bar stuff *//* navigation bar stuff */
+nav{
+    padding: 10px;
+    border-bottom: 2px solid #007BFF;
+}
+
+nav, h1{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* table stuff *//* table stuff *//* table stuff *//* table stuff *//* table stuff *//* table stuff *//* table stuff *//* table stuff */
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #007BFF;
+}
+
+th{
+    background-color: rgb(217,217,214);
+}
+/* classes stuff *//* classes stuff *//* classes stuff *//* classes stuff *//* classes stuff *//* classes stuff *//* classes stuff */
+.header-grid-design{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-content-design{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.header-ul{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-title-design{
+    font-family: 'Lora', 'Georgia', serif;
+    color: #0056b3;
+}
+
+.footer-design{
+    background-color: #343a40;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center ;
+}
+
+.footer-header{
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+
+}

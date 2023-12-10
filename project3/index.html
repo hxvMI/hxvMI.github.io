@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of the Year Nomination</title>
+    <style> <!--Needs to be included for CSS to work-->
+
+     table, th, td{
+        border:1px solid black;
+        text-align:center;
+        padding:10px;
+    }
+
+    li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    h2{
+        font-size:30px;
+        margin-right:10%;
+        margin-left:10%;
+    }
+
+    a:link{
+    text-decoration: none;
+    }
+
+    #red{
+        color:red;
+    }
+</style>
+</head>
+
+<!--#red is used for "ids" which are all unique only be called by 1 thing-->
+<!--center is for classes and can be called by multiple things when calling a class you only need to write the name you don't need to include the dot-->
+
+
+<body>
+
+<header>
+    <h1 style="text-align: center; font-size:60px">Armored Core 6</h1>
+    <h1 style="text-align: center; margin-top:-40px;">Hashiro Valdivia</h1>
+    <p style="margin-top:-15px; text-align:center"><small>By: Kevin Bacon</small></p>
+</header>
+
+
+<main>
+
+    <nav style="text-align:center; border-style:solid hidden solid hidden; padding-bottom:3px">
+        <a href="index.html">Home</a>
+        <a href="https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/">Store</a>
+        <!--    <a href="LINK THIS TO A SONG LIST PAGE">Music</a>-->
+        <!--will add more later-->
+    </nav>
+
+    <figure>
+        <img src="1328384.png" alt="Image of Armored Core 6 Game Cover"
+             style="margin: 20px auto auto auto; display: block" width="600" height="350">
+        <figcaption style="text-align:center; color:gray;"><small>Official Game Cover. Image via <em>FromSoftware</em></small></figcaption>
+        <!--Image has to be in the same folder as your html file for it to load-->
+        <!--Just copy the name of the image and its file extension-->
+    </figure>
+
+    <nav>
+        <table style="width:50%; margin-left:auto!important;
+        margin-right:auto!important;">
+            <tbody>
+            <tr style="background-color:silver;">
+                <th>Section</th>
+                <th>Description</th>
+                <th>Go To Section</th>
+            </tr>
+
+            <tr>
+                <td><a href="#GameReview">Game Review</a></td>
+                <td>Review of the gameplay, presentation, and story</td>
+                <td><a href="#GameReview">Click Here</a></td>
+            </tr>
+            <tr>
+                <td><a href="#GameSynopsis">Game Synopsis</a></td>
+                <td>Short overview of the games plot</td>
+                <td><a href="#GameSynopsis">Click Here</a></td>
+            </tr>
+            <tr>
+                <td><a href="#MinPCRequirements">Minimum PC Requirements</a></td>
+                <td>Parts your PC needs to be able to play the game</td>
+                <td><a href="#MinPCRequirements">Click Here</a></td>
+            </tr>
+            <tr>
+                <td><a href="#RecPCRequirements">Recommended PC Requirements</a></td>
+                <td>Parts your PC needs to experience the game at its best</td>
+                <td><a href="#RecPCRequirements">Click Here</a></td>
+                <!--to anchor link first assign the point you want to jump
+                      to an "id"
+
+                      then make an <a href> linking to that id
+                      to call an id you need to put a # in-front of it-->
+            </tr>
+
+            </tbody>
+        </table>
+    </nav>
+
+    <section>
+        <h2 style="text-align:center" id="GameReview">Armored Core 6 <em>Game Review</em></h2>
+        <p style="text-align:left; margin:20px 20% 20px 20%;">
+            After FromSoftware's incredible run from Souls to Sekiro to Elden Ring,
+            Armored Core 6 is a near-radical departure: short, relentlessly paced missions,
+            forgiving retries,
+            and an empowering arsenal that makes it clear you are a one mech army instead of some nasty little guy.
+            Its lean approach holds it back in a few minor ways,
+            but a big budget game this dead set on what it is and what it is not is a precious thing in 2023.
+        </p>
+        <p style="text-align:left; margin:20px 20% 20px 20%;">
+            Armored Core VI is a mecha-based vehicular combat game.
+            The game takes place on the distant world of Rubicon 3,
+            where a groundbreaking energy source called "Coral"
+            holds immense potential for humanity's technological advancement.
+            However, the unexpected emergence of "The Fires of Ibis," a catastrophic event,
+            ravages the planet and its neighboring star system in a <span id="red">blaze</span> of destruction.
+        </p>
+        <p style="text-align:left; margin:20px 20% 20px 20%;">
+            Armored Core 6's missions are that simple in construction and that thrilling in action.
+            It allows you to snap together the pieces of your ultimate mech and then manifests those
+            imagined backyard battles with a pink and neon green death machine
+            (should you choose to go wild with the paint options) that can make it rain lasers and hellfire,
+            no mouth sounds needed. AC6 prizes nothing as much as fulfilling the fantasy of piloting one
+            of these immense metal machines and feeling incredibly cool while you do it.
+        </p>
+    </section>
+
+    <br>
+
+    <figure>
+        <img src="1316190.jpeg" alt="Image of Armored Core 6 Gameplay"
+             style="margin: 20px auto auto auto; display: block" width="600" height="350">
+        <figcaption style="text-align:center; color:gray;"><small>Official Gameplay. Image via <em>FromSoftware</em></small></figcaption>
+        <!--Image has to be in the same folder as your html file for it to load-->
+        <!--Just copy the name of the image and its file extension-->
+    </figure>
+
+    <br>
+
+    <section>
+        <h2 style="text-align:center" id="GameSynopsis"><em>Armored Core 6</em> Synopsis</h2>
+
+        <p style="text-align:left; margin:20px 20% 20px 20%;">
+            There's more in-your-face narrative here than in all three Dark Souls games combined, as the leaders of Rubicon's corporate mercenary squads regularly send you voice messages after each sortie to chit-chat about the aftermath of whatever you've just blown up. The option to replay missions makes it easy to ignore in favor of your own stories: Could you grasshopper-leap your way to an objective with a mech built for verticality, leaving the ground defenses left in your dust? Could the thick cloud of drones taking annoying potshots at you in another mission be wiped out in a single volley of multi-lock missiles with a range-focused build?
+        </p>
+    </section>
+
+    <br>
+
+    <section>
+        <h2 style="text-align:center;" id="MinPCRequirements"><em>Armored Core 6</em> Minimum PC Requirements</h2>
+        <div>
+            <ul style="text-align:left; margin:20px 20% 20px 20%;">
+                <li>Requires a 64-bit processor and operating system</li>
+                <li>OS: Windows 10</li>
+                <li>Processor: Intel Core i5-8600K or AMD Ryzen 3 3300X</li>
+                <li>Memory: 12 GB RAM</li>
+                <li>Graphics: NVIDIA GeForce GTX 960, 4 GB or AMD Radeon RX 480, 4 GB or Intel Arc A380, 6 GB</li>
+                <li>DirectX: Version 12</li>
+                <li>Network: Broadband Internet connection</li>
+                <li>Storage: 65 GB available space</li>
+            </ul>
+        </div>
+    </section>
+
+    <br>
+
+    <section>
+        <h2 style="text-align:center;" id="RecPCRequirements"><em>Armored Core 6</em> Recommended PC Requirements</h2>
+        <ul style="text-align:left; margin:20px 20% 20px 20%; font-size:16px">
+            <li>Requires a 64-bit processor and operating system</li>
+            <li>OS: Windows 10/11</li>
+            <li>Processor: Intel Core i7-7700 | Intel Core i5-10400 or AMD Ryzen 7 2700X | AMD Ryzen 5 3600</li>
+            <li>Memory: 12 GB RAM</li>
+            <li>Graphics: NVIDIA GeForce GTX 1060, 6GB or AMD Radeon RX 590, 8GB or Intel Arc A750, 8GB</li>
+            <li>DirectX: Version 12</li>
+            <li>Storage: 60 GB available space</li>
+            <li>Sound Card: Windows Compatible Audio Device</li>
+        </ul>
+    </section>
+
+
+
+
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    background-color: #FFFFFF; /* Set the main page background color to #FFFFFF */
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+h1, h2, h3{
+    font-family: 'Lora', 'Georgia', serif;
+    color: #f07d45;
+}
+
+h2 {
+    color: #f07d45; /* Set h1 color to warm orange */
+    margin-left: 10%; /* Remove default margin */
+    margin-right: 10%;
+    font-size: 1px;
+    visibility: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 4px solid #f07d45; /* Set thicker border color to warm orange at the bottom */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.col-3{
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+
+.nav-list li {
+    padding: 10px;
+}
+
+nav {
+    background-color: #f07d45; /* Set background color to warm orange */
+    border: solid #f07d45;
+    border-radius: 0px;
+}
+
+nav a {
+    color: #FFFFFF; /* Set link text color to #FFFFFF */
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main a{
+    color: #00ffff;
+}
+
+main a:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+}
+
+main a:visited{
+    color: #00e6e6;
+}
+
+main a:active{
+    color: #00ffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+}
+
+a:focus{/* added just in case */
+    outline:2px solid #007BFF;
+}
+
+main {
+    padding: 20px;
+}
+
+main h3{
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.featured-recipe-container,
+.other-recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Center the grid items within the container */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.featured-recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 700px); /* Set a fixed column width of 300px */
+    gap: 20px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cell,
+.box {
+    background-color: #f07d45; /* Set cell and box background color to #FFFFFF */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #FFFFFF; /* Set border color to warm orange on all sides */
+}
+
+#featured-recipe-title,
+#other-recipes-title {
+    background-color: #f07d45; /* Set title background color to warm orange */
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+
+#featured-recipe-description
+    grid-column: span 1;
+}
+
+#featured-recipe-image{
+    grid-column: span 1;
+}
+
+.box img, .cell img {
+    border-radius: 40px;
+    border: 2px solid #FFFFFF;
+    max-width: 100%; /* Ensure images shrink to fit their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+
+footer {
+    background-color: #f07d45;
+    padding:20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-header{
+    color: #FFFFFF;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+footer h3{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.centering {
+    max-width: 600px; /* Set a maximum width for the article if needed */
+    margin: auto; /* Center the article horizontally */
+}
