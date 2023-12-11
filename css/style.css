@@ -162,7 +162,7 @@ main h3, main h4{
 
 #featured-recipe-description{
     grid-column: span 1;
-    margin-bottom: 80px;
+
 }
 
 #featured-recipe-image{
@@ -200,7 +200,8 @@ footer h2{
 
 .centering{
     max-width: 600px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table{
