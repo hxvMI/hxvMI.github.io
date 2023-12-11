@@ -135,6 +135,15 @@ main h3, main h4{
     grid-template-columns: repeat(auto-fill, 700px);
 }
 
+@media screen and (max-width: 770px){ /*when screen gets smaller make containers smaller to fit*/
+  .time-expectations-container,
+  .featured-recipe-container{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 700px));
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 .cell,
 .box{
     background-color: #f07d45;
@@ -211,7 +220,6 @@ table{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color: #f07d45;
-    align:center;
 }
 
 table, th, td{
