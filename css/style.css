@@ -135,7 +135,7 @@ main h3, main h4{
     grid-template-columns: repeat(auto-fill, 700px);
 }
 
-@media screen and (max-width: 770px){ /*when screen gets smaller make containers smaller to fit*/
+@media (max-width: 770px){ /*when screen gets smaller make containers smaller to fit refer as reference https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries*/
   .time-expectations-container,
   .featured-recipe-container{
     grid-template-columns: repeat(auto-fill, minmax(250px, 700px));
