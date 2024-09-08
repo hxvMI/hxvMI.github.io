@@ -1,2 +1,2 @@
 # hxvMI.github.io
- web hosting repo
+ web hosting repo for different websites
